@@ -27,8 +27,6 @@
         $humid          = $row['humidity'];
         $waterlvl       = $row['waterlvl'];
         $phlvl          = $row['phlvl'];
-    
-
     }
 
     else{
