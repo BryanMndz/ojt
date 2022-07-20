@@ -71,7 +71,7 @@ if(isset($_POST['Submitdata'])){
     
 
     echo "<script> 
-                alert('Your Data Has Been Updated!!');
+                alert('Your Data Has Been Uploaded!!');
                 window.location.replace('index.php');
     
             </script>";

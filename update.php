@@ -39,7 +39,11 @@
 
         $sql = "UPDATE recodata SET temperature = $temp, humidity = $humid, waterlvl = $waterlvl, phlvl = $phlvl  WHERE record_ID = $id";
         prepareSQL($con, $sql);
-        echo $sql;
+        echo "<script> 
+                alert('Your Data Has Been Updated!!');
+                window.location.replace('index.php');
+    
+            </script>";
        
     }
 
